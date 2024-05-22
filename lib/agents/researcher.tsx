@@ -20,7 +20,7 @@ export async function researcher(
   streamText: ReturnType<typeof createStreamableValue<string>>,
   messages: ExperimentalMessage[]
 ) {
-  const searchAPI: 'tavily' | 'exa' = 'tavily'
+  const searchAPI: 'tavily' | 'exa' = 'exa'
 
   let fullResponse = ''
   const answerSection = (
@@ -65,9 +65,9 @@ export async function researcher(
           )
 
           const searchResult =
-            searchAPI === 'tavily'
-              ? await tavilySearch(query, max_results, search_depth)
-              : await exaSearch(query)
+            searchAPI === 'exa'
+              ? await exaSearch(query, max_results)
+              : await tavilySearch(query, max_results, search_depth)
 
           uiStream.update(
             <Section title="Images">

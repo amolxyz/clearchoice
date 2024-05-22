@@ -90,13 +90,20 @@ export function ChatPanel() {
   return (
     <div className={formPositionClass}>
       {/* <IconKuroko className="w-6 h-6 mb-4" /> */}
+      <h1 className="text-2xl font-bold mb-4">
+        Trusted Source for Honest Product Reviews
+      </h1>
+      <p className="text-sm text-muted-foreground mb-12">
+        Get clear, unbiased reviews for any product with our AI. 10x Faster, Zero
+        Effort.
+      </p>
       <form onSubmit={handleSubmit} className="max-w-2xl w-full px-6">
         <div className="relative flex items-center w-full">
           <Input
             ref={inputRef}
             type="text"
             name="input"
-            placeholder="Ask a question..."
+            placeholder="Provide a product link or describe what you're looking for..."
             value={input}
             className="pl-4 pr-10 h-12 rounded-full bg-muted"
             onChange={e => {

@@ -3,20 +3,20 @@ import { ArrowRight } from 'lucide-react'
 
 const exampleMessages = [
   {
-    heading: 'Why is Nvidia growing rapidly?',
-    message: 'Why is Nvidia growing rapidly?'
+    heading: 'Best noice-cancellation headphones',
+    message: 'Best noice-cancellation headphones'
   },
   {
     heading: 'Is the Apple Vision Pro worth buying?',
     message: 'Is the Apple Vision Pro worth buying?'
   },
   {
-    heading: 'How does the Vercel AI SDK work?',
-    message: 'How does the Vercel AI SDK work?'
+    heading: 'Compare Apple iPhone 13 and Google Pixel 8',
+    message: 'Compare Apple iPhone 13 and Google Pixel 8'
   },
   {
-    heading: 'Tesla vs Rivian',
-    message: 'Tesla vs Rivian'
+    heading: 'Is iPhone 15 waterproof?',
+    message: 'Is iPhone 15 waterproof?'
   }
 ]
 export function EmptyScreen({
