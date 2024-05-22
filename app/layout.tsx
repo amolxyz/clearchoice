@@ -13,7 +13,7 @@ const fontSans = FontSans({
 })
 
 export const metadata: Metadata = {
-  title: 'Morphic - AI powered answer engine for product reviews.',
+  title: 'ClearChoice - AI powered answer engine for product reviews.',
   description: 'An AI-powered answer engine with for product reviews.'
 }
 
