@@ -7,7 +7,8 @@ import {
   MessageCircleMore,
   Newspaper,
   Repeat2,
-  Search
+  Search,
+  ShoppingBasket
 } from 'lucide-react'
 import React from 'react'
 import { Separator } from './ui/separator'
@@ -29,9 +30,9 @@ export const Section: React.FC<SectionProps> = ({
 }) => {
   let icon: React.ReactNode
   switch (title) {
-    case 'Images':
+    case 'Products':
       // eslint-disable-next-line jsx-a11y/alt-text
-      icon = <Image size={18} className="mr-2" />
+      icon = <ShoppingBasket size={18} className="mr-2" />
       break
     case 'Sources':
       icon = <Newspaper size={18} className="mr-2" />

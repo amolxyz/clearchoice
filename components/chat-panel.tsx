@@ -90,7 +90,7 @@ export function ChatPanel() {
   return (
     <div className={formPositionClass}>
       {/* <IconKuroko className="w-6 h-6 mb-4" /> */}
-      <h1 className="text-2xl font-bold mb-4">
+      <h1 className="text-2xl font-bold mb-2">
         Trusted Source for Honest Product Reviews
       </h1>
       <p className="text-sm text-muted-foreground mb-12">

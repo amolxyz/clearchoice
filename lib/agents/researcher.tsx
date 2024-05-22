@@ -70,7 +70,7 @@ export async function researcher(
               : await tavilySearch(query, max_results, search_depth)
 
           uiStream.update(
-            <Section title="Images">
+            <Section title="Products">
               <SearchResultsImageSection
                 images={searchResult.images}
                 query={searchResult.query}

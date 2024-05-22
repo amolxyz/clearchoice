@@ -14,7 +14,6 @@ export const Header: React.FC = () => {
           <div className="flex items-center">
             <IconLogo className={cn('w-5 h-5')} />
             <span className="sr-only">clearchoice</span>
-            <p className="text-lg font-bold ml-2">clearchoice</p>
           </div>
         </a>
       </div>
