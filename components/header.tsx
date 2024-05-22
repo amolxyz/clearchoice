@@ -11,8 +11,8 @@ export const Header: React.FC = () => {
     <header className="fixed w-full p-0 md:p-2 flex justify-between items-center z-10 backdrop-blur md:backdrop-blur-none bg-background/80 md:bg-transparent">
       <div className="p-2">
         <a href="/">
-          <div className="flex items-center">
-            <IconLogo className={cn('w-5 h-5')} />
+          <div className="flex items-center w-40 h-10">
+            <IconLogo className={cn('w-3 h-3')} />
             <span className="sr-only">clearchoice</span>
           </div>
         </a>
